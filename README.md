@@ -3,6 +3,8 @@
 ## Intro
 Identifying sarcasm is often associated with human cognitive abilities and is one of the things that set humans apart from other species. However, recent advances in Natural Language Processing (NLP) has produced models that can perform well on Natural Language Understanding (NLU) tasks such as sarcasm detection. One of the NLP models is ALBERT which has established groundbreaking results on multiple benchmarks at the time of invention. In this repo, I will demonstrate the effectiveness of ALBERT on sarcasm detection. The results will be compared with a baseline NLP model to highlight the advances made in ALBERT.
 
+Refer [here](https://arxiv.org/pdf/1909.11942.pdf) to learn more about ALBERT. 
+
 ---------------------------------------
 
 ## Data Exploration
@@ -29,7 +31,7 @@ GloVe is a NLP embedding technique which represents every words (tokens) with a 
 
 LSTM is a type of Recurrent Neural Network (RNN) which is suitable for processing sequence data such as text.
 
-The full data analysis process can be found in [basline_model.ipynb](./basline_model.ipynb)
+The full data analysis process can be found in [basline_model.ipynb](./baseline_model.ipynb)
 
 Step 1 - Tokenization + Padding
 
